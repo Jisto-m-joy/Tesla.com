@@ -1,0 +1,337 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+
+
+.tesla-logo {
+
+   height: 150px;
+   position: relative;
+   left: 40px;
+   top: 10%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    align-items: center;
+    position: absolute;
+    display: flex;
+      
+}
+
+.navbar ul {
+    margin: 0;
+}
+
+.center-nav {
+    height: 2rem;
+    flex: 8;
+    
+}
+
+.right-nav{
+    flex: 3;
+    margin: 0px;
+    display: flex;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    margin: 0 0.5rem;
+}
+
+.nav-list >a {
+    text-decoration: none;
+    width: 2rem;
+    color: rgb(255, 255, 255);
+    padding: 6px 7px;
+    font-size: 1rem;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+}
+
+.nav-list >a:hover {
+    background-color: rgb(181, 178, 178);
+    border-radius: 4px;
+}
+
+.icons {
+    position: absolute;
+    right: 2%;
+    top: 1px;
+    scale: 1.2;
+}
+
+.Properties {
+    position: absolute;
+    left: 35%;
+    bottom: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.details {
+    width: 500px;
+    position: relative;
+    left: 33%;
+    top: 15%; 
+}
+
+
+
+.model-name {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+
+.emi {
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+  
+}
+
+.price {
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0; 
+}
+
+.background-img-1 {
+    height: 750px;
+    width: 100%;
+    background-image: url("photos/img-1.avif");
+    background-size: cover;
+    
+}
+
+.Activity-buttons {
+    display: flex;
+    position: absolute;
+    top: 650px;
+    left: 490px;
+    justify-content: space-between;
+}
+
+.order-button {
+    padding: 10px 100px 10px 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(55, 55, 218);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+.demo-button {
+    padding: 10px 100px 10px 100px;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-img-2 {
+    height: 750px;
+    width: 100%;
+    background-image: url("photos/img-2.avif");
+    background-size: cover;
+}
+
+.Activity-buttons-2 {
+    position: relative;
+    top: 500px;
+    left: 490px;
+}
+
+.background-img-3 {
+    height: 750px;
+    width: 100%;
+    background-image: url("photos/img-3.avif");
+    background-size: cover;
+}
+
+.emi-3 {
+    text-decoration: none;
+}
+
+.price-3 { 
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.background-img-4 {
+    height: 750px;
+    width: 100%;  
+    background-image: url("photos/img-4.avif");
+    background-size: cover;
+}
+
+.background-img-5 {
+    height: 750px;
+    width: 100%;  
+    background-image: url("photos/img-5.avif");
+    background-size: cover;
+}
+
+.cybertruck-logo{
+    scale: 0.8;
+    position: relative;
+    left: 30%;
+    top: 10%;
+}
+
+.buttons-5 {
+    position: relative;
+    top: 53%;
+    left: 30%;
+}
+
+.order-button-5 {
+    padding: 10px 100px 10px 100px;
+    border-top: 2px solid grey;
+    background-color: black;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.demo-button-5 {
+    padding: 10px 100px 10px 100px;
+    background-color: black;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.background-img-6 {
+    height: 750px;
+    width: 100%;  
+    background-image: url("photos/img-6.avif");
+    background-size: cover;
+}
+
+.solar-panel {
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 20px;
+}
+
+.background-img-7 {
+    height: 750px;
+    width: 100%;  
+    background-image: url("photos/img-7.avif");
+    background-size: cover;
+}
+
+.solar-roof {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 700px;
+    display: flex;
+    position: relative;
+    bottom: 20px;
+}
+
+.background-img-8 {
+    height: 750px;
+    width: 100%;  
+    background-image: url("photos/img-8.avif");
+    background-size: cover;
+}
+
+.powerwall-buttons {
+    position: relative;
+    top: 80%;
+}
+
+.background-img-9 {
+    height: 750px;
+    width: 100%;  
+    background-image: url("photos/img-9.avif");
+    background-size: cover;
+}
+
+.Shop-now-button {
+    padding: 10px 100px 10px 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(55, 55, 218);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+.button-9 {
+    position: relative;
+    top: 80%;
+    left: 42%;
+}
+
+.bg-color {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+}
+
+.para{
+    text-align: center;
+    height: 104px;
+    width: 760px;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    scale: 0.8;
+}
+
+.end-list {
+    width: 800px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    scale: 0.7;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+    left: 22%;
+}
+
+a {
+    color: white;
+    font-weight: 600;
+}
+
